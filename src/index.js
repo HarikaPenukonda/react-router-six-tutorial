@@ -18,7 +18,8 @@ root.render(
       <Route path='/' element={<Home/>}/>
       <Route path='/myapps' element={<Navigate replace to="/learn"/>}/>
       <Route path='/learn' element={<Learn/>}>
-        <Route path='course' element={<Courses/>}/>
+        <Route path='courses' element={<Courses/>}/>
+        <Route path='bundles' element={<Bundles/>}/>
       </Route>
     </Routes>
   </Router>
