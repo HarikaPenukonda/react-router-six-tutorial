@@ -10,6 +10,8 @@ root.render(
   <Router>
     <Routes>
       <Route path='/' element={<Home/>}/>
+      <Route path='/myapps' element={<Home/>}/>
+      <Route path='/learn' element={<Learn/>}/>
     </Routes>
   </Router>
     {/* <Home/> */}
