@@ -38,8 +38,8 @@ function Learn(){
       <h4>
         All courses are listed here
       </h4>
-      <Link to="/learn/course">courses</Link> ||
-      <Link to="/learn/bundle">bundle</Link>
+      <Link className="btn btn-success" to="/learn/course">courses</Link> |
+      <Link className="btn btn-primary" to="/learn/bundle">bundle</Link>
     </div>
   )
 }
