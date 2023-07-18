@@ -23,5 +23,15 @@ function Home(){
     </div>
   )
 }
+function Learn(){
+  return(
+    <div>
+      <h1>Learn</h1>
+      <h4>
+        All courses are listed here
+      </h4>
+    </div>
+  )
+}
 
 reportWebVitals();
